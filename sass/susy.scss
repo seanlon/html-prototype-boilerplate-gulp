@@ -1,0 +1,17 @@
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+
+$susy: (
+    columns: 12,
+    container: 1200px,
+    gutters: 1/4,
+    global-box-sizing: border-box,
+    debug: (image: hide)
+);
+
+ 
+article {
+  @include span(8 of 12);
+  /* More styles here */
+}
